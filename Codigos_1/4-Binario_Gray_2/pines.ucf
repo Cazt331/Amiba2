@@ -1,0 +1,19 @@
+#Entradas
+net binario(7) loc = M1;
+net binario(6) loc = P2;
+net binario(5) loc = N5;
+net binario(4) loc = T7;
+net binario(3) loc = R9;
+net binario(2) loc = P4;
+net binario(1) loc = R7;
+net binario(0) loc = N9;
+
+#Salidas
+net gray(7) loc = P1;
+net gray(6) loc = T4;
+net gray(5) loc = T6;
+net gray(4) loc = T9;
+net gray(3) loc = M12;
+net gray(2) loc = N6;
+net gray(1) loc = P9;
+net gray(0) loc = N12;

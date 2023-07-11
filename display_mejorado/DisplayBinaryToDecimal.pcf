@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Jun 11 18:27:40 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "segment_output<3>" LOCATE = SITE "T14" LEVEL 1;
+COMP "segment_output<4>" LOCATE = SITE "T13" LEVEL 1;
+COMP "segment_output<5>" LOCATE = SITE "R16" LEVEL 1;
+COMP "segment_output<6>" LOCATE = SITE "R15" LEVEL 1;
+COMP "display_output<1>" LOCATE = SITE "F16" LEVEL 1;
+COMP "display_output<0>" LOCATE = SITE "G16" LEVEL 1;
+COMP "binary_input<0>" LOCATE = SITE "N9" LEVEL 1;
+COMP "binary_input<1>" LOCATE = SITE "R7" LEVEL 1;
+COMP "binary_input<2>" LOCATE = SITE "P4" LEVEL 1;
+COMP "binary_input<3>" LOCATE = SITE "R9" LEVEL 1;
+COMP "binary_input<4>" LOCATE = SITE "T7" LEVEL 1;
+COMP "binary_input<5>" LOCATE = SITE "N5" LEVEL 1;
+COMP "binary_input<6>" LOCATE = SITE "P2" LEVEL 1;
+COMP "binary_input<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "display_output<2>" LOCATE = SITE "E16" LEVEL 1;
+COMP "segment_output<0>" LOCATE = SITE "P16" LEVEL 1;
+COMP "segment_output<1>" LOCATE = SITE "P15" LEVEL 1;
+COMP "segment_output<2>" LOCATE = SITE "T15" LEVEL 1;
+SCHEMATIC END;
+

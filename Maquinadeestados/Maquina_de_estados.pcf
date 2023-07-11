@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon May 29 09:56:26 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "E7" LEVEL 1;
+COMP "led" LOCATE = SITE "P1" LEVEL 1;
+COMP "reset" LOCATE = SITE "J1" LEVEL 1;
+COMP "switches" LOCATE = SITE "N9" LEVEL 1;
+SCHEMATIC END;
+

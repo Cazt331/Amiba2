@@ -1,0 +1,125 @@
+xst -intstyle ise -ifn "Z:/Reloj/Reloj.xst" -ofn "Z:/Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/Reloj/Reloj.xst" -ofn "Z:/Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/Reloj/Reloj.xst" -ofn "Z:/Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/Reloj/Reloj.xst" -ofn "Z:/Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/Reloj/Reloj.xst" -ofn "Z:/Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/Reloj/Reloj.xst" -ofn "Z:/Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 
+xst -intstyle ise -ifn "Z:/5-Reloj/Reloj.xst" -ofn "Z:/5-Reloj/Reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Reloj.ngc Reloj.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_map.ncd Reloj.ngd Reloj.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_map.ncd Reloj.ncd Reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj.twx Reloj.ncd -o Reloj.twr Reloj.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Reloj.ut Reloj.ncd 

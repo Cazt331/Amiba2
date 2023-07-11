@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Secuencia_map.ncd Secuencia.ngd Secuencia.pcf 
+par -w -intstyle ise -ol high -mt off Secuencia_map.ncd Secuencia.ncd Secuencia.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Secuencia.twx Secuencia.ncd -o Secuencia.twr Secuencia.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Secuencia_map.ncd Secuencia.ngd Secuencia.pcf 
+par -w -intstyle ise -ol high -mt off Secuencia_map.ncd Secuencia.ncd Secuencia.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Secuencia.twx Secuencia.ncd -o Secuencia.twr Secuencia.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Secuencia.ut Secuencia.ncd 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Secuencia_map.ncd Secuencia.ngd Secuencia.pcf 
+par -w -intstyle ise -ol high -mt off Secuencia_map.ncd Secuencia.ncd Secuencia.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Secuencia.twx Secuencia.ncd -o Secuencia.twr Secuencia.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Secuencia_map.ncd Secuencia.ngd Secuencia.pcf 
+par -w -intstyle ise -ol high -mt off Secuencia_map.ncd Secuencia.ncd Secuencia.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Secuencia.twx Secuencia.ncd -o Secuencia.twr Secuencia.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Secuencia.ngc Secuencia.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Secuencia_map.ncd Secuencia.ngd Secuencia.pcf 
+par -w -intstyle ise -ol high -mt off Secuencia_map.ncd Secuencia.ncd Secuencia.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Secuencia.twx Secuencia.ncd -o Secuencia.twr Secuencia.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 
+xst -intstyle ise -ifn "Z:/Secuencia_display/Secuencia.xst" -ofn "Z:/Secuencia_display/Secuencia.syr" 

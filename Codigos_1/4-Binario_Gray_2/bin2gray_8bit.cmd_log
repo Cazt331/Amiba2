@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "Z:/Binario_Gray_2/bin2gray_8bit.xst" -ofn "Z:/Binario_Gray_2/bin2gray_8bit.syr" 
+xst -intstyle ise -ifn "Z:/Binario_Gray_2/bin2gray_8bit.xst" -ofn "Z:/Binario_Gray_2/bin2gray_8bit.syr" 

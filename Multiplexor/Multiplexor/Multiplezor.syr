@@ -1,0 +1,391 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: Multiplezor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Multiplezor.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Multiplezor"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-ftg256
+
+---- Source Options
+Top Module Name                    : Multiplezor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "\\vboxsvr\compartir\Multiplexor\Multiplexor.v" into library work
+Parsing module <Multiplezor>.
+WARNING:HDLCompiler:568 - "\\vboxsvr\compartir\Multiplexor\Multiplexor.v" Line 46: Constant value is truncated to fit in <7> bits.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Multiplezor>.
+WARNING:HDLCompiler:91 - "\\vboxsvr\compartir\Multiplexor\Multiplexor.v" Line 36: Signal <Mostrar> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\vboxsvr\compartir\Multiplexor\Multiplexor.v" Line 38: Signal <Num1> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\vboxsvr\compartir\Multiplexor\Multiplexor.v" Line 40: Signal <Num2> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\vboxsvr\compartir\Multiplexor\Multiplexor.v" Line 42: Signal <Num3> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\vboxsvr\compartir\Multiplexor\Multiplexor.v" Line 44: Signal <Num4> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Multiplezor>.
+    Related source file is "\\vboxsvr\compartir\Multiplexor\Multiplexor.v".
+    Found 2-bit register for signal <Seleccion>.
+    Found 24-bit register for signal <Cuenta>.
+    Found 24-bit adder for signal <Cuenta[23]_GND_1_o_add_2_OUT> created at line 15.
+    Found 2-bit adder for signal <Seleccion[1]_GND_1_o_add_3_OUT> created at line 17.
+    Found 4x8-bit Read Only RAM for signal <Displays>
+    Found 24-bit comparator greater for signal <Cuenta[23]_GND_1_o_LessThan_2_o> created at line 14
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Multiplezor> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x8-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 2
+ 2-bit adder                                           : 1
+ 24-bit adder                                          : 1
+# Registers                                            : 2
+ 2-bit register                                        : 1
+ 24-bit register                                       : 1
+# Comparators                                          : 1
+ 24-bit comparator greater                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Multiplezor>.
+The following registers are absorbed into counter <Cuenta>: 1 register on signal <Cuenta>.
+The following registers are absorbed into counter <Seleccion>: 1 register on signal <Seleccion>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Displays> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Seleccion>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Displays>      |          |
+    -----------------------------------------------------------------------
+Unit <Multiplezor> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x8-bit single-port distributed Read Only RAM         : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 24-bit up counter                                     : 1
+# Comparators                                          : 1
+ 24-bit comparator greater                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Multiplezor> ...
+WARNING:Xst:1710 - FF/Latch <Cuenta_23> (without init value) has a constant value of 0 in block <Multiplezor>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Multiplezor, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 25
+ Flip-Flops                                            : 25
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Multiplezor.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 115
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 22
+#      LUT2                        : 30
+#      LUT5                        : 2
+#      LUT6                        : 10
+#      MUXCY                       : 22
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 23
+# FlipFlops/Latches                : 25
+#      FD                          : 23
+#      FDE                         : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      OBUF                        : 16
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9ftg256-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              25  out of  11440     0%  
+ Number of Slice LUTs:                   66  out of   5720     1%  
+    Number used as Logic:                66  out of   5720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     66
+   Number with an unused Flip Flop:      41  out of     66    62%  
+   Number with an unused LUT:             0  out of     66     0%  
+   Number of fully used LUT-FF pairs:    25  out of     66    37%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    186     9%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Reloj                              | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.671ns (Maximum Frequency: 214.087MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.496ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Reloj'
+  Clock period: 4.671ns (frequency: 214.087MHz)
+  Total number of paths / destination ports: 930 / 27
+-------------------------------------------------------------------------
+Delay:               4.671ns (Levels of Logic = 4)
+  Source:            Cuenta_22 (FF)
+  Destination:       Cuenta_1 (FF)
+  Source Clock:      Reloj rising
+  Destination Clock: Reloj rising
+
+  Data Path: Cuenta_22 to Cuenta_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.525   1.340  Cuenta_22 (Cuenta_22)
+     LUT5:I0->O            1   0.254   0.000  Cuenta[23]_GND_1_o_LessThan_2_o_inv3_SW0_G (N15)
+     MUXF7:I1->O           2   0.175   0.726  Cuenta[23]_GND_1_o_LessThan_2_o_inv3_SW0 (N8)
+     LUT6:I5->O           12   0.254   1.069  Cuenta[23]_GND_1_o_LessThan_2_o_inv4 (Cuenta[23]_GND_1_o_LessThan_2_o_inv)
+     LUT2:I1->O            1   0.254   0.000  Cuenta_1_rstpot (Cuenta_1_rstpot)
+     FD:D                      0.074          Cuenta_1
+    ----------------------------------------
+    Total                      4.671ns (1.536ns logic, 3.135ns route)
+                                       (32.9% logic, 67.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Reloj'
+  Total number of paths / destination ports: 18 / 10
+-------------------------------------------------------------------------
+Offset:              5.496ns (Levels of Logic = 2)
+  Source:            Seleccion_0 (FF)
+  Destination:       Segmentos<3> (PAD)
+  Source Clock:      Reloj rising
+
+  Data Path: Seleccion_0 to Segmentos<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              9   0.525   1.084  Seleccion_0 (Seleccion_0)
+     LUT2:I0->O            2   0.250   0.725  Mostrar[7]_PWR_1_o_equal_11_o<7>1 (Segmentos_3_OBUF)
+     OBUF:I->O                 2.912          Segmentos_3_OBUF (Segmentos<3>)
+    ----------------------------------------
+    Total                      5.496ns (3.687ns logic, 1.809ns route)
+                                       (67.1% logic, 32.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Reloj
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Reloj          |    4.671|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.00 secs
+ 
+--> 
+
+Total memory usage is 257116 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml binario_gray.twx binario_gray.ncd -o binario_gray.twr
+binario_gray.pcf -ucf pines.ucf
+
+Design file:              binario_gray.ncd
+Physical constraint file: binario_gray.pcf
+Device,package,speed:     xc6slx9,ftg256,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+binario<0>     |gray<0>        |    8.571|
+binario<1>     |gray<0>        |    9.252|
+binario<1>     |gray<1>        |    8.721|
+binario<2>     |gray<1>        |    9.396|
+binario<2>     |gray<2>        |   10.178|
+binario<3>     |gray<2>        |    9.231|
+binario<3>     |gray<3>        |    8.673|
+binario<4>     |gray<3>        |    8.840|
+binario<4>     |gray<4>        |    8.706|
+binario<5>     |gray<4>        |    9.363|
+binario<5>     |gray<5>        |    8.974|
+binario<6>     |gray<5>        |    9.356|
+binario<6>     |gray<6>        |    9.168|
+binario<7>     |gray<6>        |    9.715|
+binario<7>     |gray<7>        |    7.443|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Apr 01 13:51:14 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 211 MB
+
+
+

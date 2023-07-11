@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "Z:/Binario_Gray_2/bin_to_gray_8bit.xst" -ofn "Z:/Binario_Gray_2/bin_to_gray_8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 bin_to_gray_8bit.ngc bin_to_gray_8bit.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bin_to_gray_8bit_map.ncd bin_to_gray_8bit.ngd bin_to_gray_8bit.pcf 
+par -w -intstyle ise -ol high -mt off bin_to_gray_8bit_map.ncd bin_to_gray_8bit.ncd bin_to_gray_8bit.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bin_to_gray_8bit.twx bin_to_gray_8bit.ncd -o bin_to_gray_8bit.twr bin_to_gray_8bit.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f bin_to_gray_8bit.ut bin_to_gray_8bit.ncd 

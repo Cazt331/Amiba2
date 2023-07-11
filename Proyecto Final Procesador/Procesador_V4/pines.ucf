@@ -1,0 +1,36 @@
+#reloj
+net Clk loc = E7;
+
+#Entrada
+net N<7> loc = M1;
+net N<6> loc = P2;
+net N<5> loc = N5;
+net N<4> loc = T7;
+net N<3> loc = R9;
+net N<2> loc = P4;
+net N<1> loc = R7;
+net N<0> loc = N9;
+
+net Start loc = L1;
+
+net Salida loc = N12;
+
+#Segmentos del display
+net Segmentos<7> LOC = R14;
+net Segmentos<6> LOC = R15;
+net Segmentos<5> LOC = R16;
+net Segmentos<4> LOC = T13;
+net Segmentos<3> LOC = T14;
+net Segmentos<2> LOC = T15;
+net Segmentos<1> LOC = P15;
+net Segmentos<0> LOC = P16;
+
+#DISPLAYS
+net Displays<7> LOC = E11;
+net Displays<6> LOC = D11;
+net Displays<5> LOC = C15;
+net Displays<4> LOC = E15;
+net Displays<3> LOC = D16;
+net Displays<2> LOC = E16;
+net Displays<1> LOC = F16;
+net Displays<0> LOC = G16;

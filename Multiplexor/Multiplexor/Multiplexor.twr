@@ -1,0 +1,134 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml Multiplexor.twx Multiplexor.ncd -o Multiplexor.twr
+Multiplexor.pcf -ucf pines.ucf
+
+Design file:              Multiplexor.ncd
+Physical constraint file: Multiplexor.pcf
+Device,package,speed:     xc6slx9,ftg256,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock Reloj to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Displays<0> |        11.613(R)|      SLOW  |         5.063(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Displays<1> |        12.431(R)|      SLOW  |         5.520(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Displays<2> |        12.543(R)|      SLOW  |         5.379(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Displays<3> |        13.031(R)|      SLOW  |         5.668(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Segmentos<0>|        11.323(R)|      SLOW  |         4.430(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Segmentos<1>|        11.388(R)|      SLOW  |         4.496(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Segmentos<2>|        10.781(R)|      SLOW  |         4.162(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Segmentos<3>|        11.151(R)|      SLOW  |         4.339(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Segmentos<4>|        11.163(R)|      SLOW  |         4.373(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Segmentos<5>|        11.133(R)|      SLOW  |         4.358(R)|      FAST  |Reloj_BUFGP       |   0.000|
+Segmentos<6>|        11.123(R)|      SLOW  |         4.364(R)|      FAST  |Reloj_BUFGP       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Reloj
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Reloj          |    4.705|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Segmentos<0>   |   10.402|
+A<0>           |Segmentos<1>   |   10.906|
+A<0>           |Segmentos<2>   |   10.137|
+A<0>           |Segmentos<3>   |   10.230|
+A<0>           |Segmentos<4>   |   10.288|
+A<0>           |Segmentos<5>   |   10.489|
+A<0>           |Segmentos<6>   |   10.248|
+A<1>           |Segmentos<0>   |   11.150|
+A<1>           |Segmentos<1>   |   10.936|
+A<1>           |Segmentos<2>   |   10.504|
+A<1>           |Segmentos<3>   |   10.978|
+A<1>           |Segmentos<4>   |   11.003|
+A<1>           |Segmentos<5>   |   10.856|
+A<1>           |Segmentos<6>   |   10.963|
+A<2>           |Segmentos<0>   |   11.252|
+A<2>           |Segmentos<1>   |   11.446|
+A<2>           |Segmentos<2>   |   10.593|
+A<2>           |Segmentos<3>   |   11.080|
+A<2>           |Segmentos<4>   |   11.108|
+A<2>           |Segmentos<5>   |   10.945|
+A<2>           |Segmentos<6>   |   11.068|
+A<3>           |Segmentos<0>   |   10.337|
+A<3>           |Segmentos<1>   |   10.017|
+A<3>           |Segmentos<2>   |    9.795|
+A<3>           |Segmentos<3>   |   10.165|
+A<3>           |Segmentos<4>   |    9.844|
+A<3>           |Segmentos<5>   |   10.147|
+A<3>           |Segmentos<6>   |    9.804|
+B<0>           |Segmentos<0>   |   10.561|
+B<0>           |Segmentos<1>   |   11.065|
+B<0>           |Segmentos<2>   |   10.296|
+B<0>           |Segmentos<3>   |   10.389|
+B<0>           |Segmentos<4>   |   10.447|
+B<0>           |Segmentos<5>   |   10.648|
+B<0>           |Segmentos<6>   |   10.407|
+B<1>           |Segmentos<0>   |   11.145|
+B<1>           |Segmentos<1>   |   10.931|
+B<1>           |Segmentos<2>   |   10.499|
+B<1>           |Segmentos<3>   |   10.973|
+B<1>           |Segmentos<4>   |   10.998|
+B<1>           |Segmentos<5>   |   10.851|
+B<1>           |Segmentos<6>   |   10.958|
+B<2>           |Segmentos<0>   |   10.971|
+B<2>           |Segmentos<1>   |   11.165|
+B<2>           |Segmentos<2>   |   10.312|
+B<2>           |Segmentos<3>   |   10.799|
+B<2>           |Segmentos<4>   |   10.827|
+B<2>           |Segmentos<5>   |   10.664|
+B<2>           |Segmentos<6>   |   10.787|
+B<3>           |Segmentos<0>   |   11.099|
+B<3>           |Segmentos<1>   |   10.779|
+B<3>           |Segmentos<2>   |   10.557|
+B<3>           |Segmentos<3>   |   10.927|
+B<3>           |Segmentos<4>   |   10.606|
+B<3>           |Segmentos<5>   |   10.909|
+B<3>           |Segmentos<6>   |   10.566|
+---------------+---------------+---------+
+
+
+Analysis completed Tue May 09 23:47:12 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 212 MB
+
+
+

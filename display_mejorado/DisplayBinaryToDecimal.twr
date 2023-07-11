@@ -1,0 +1,132 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml DisplayBinaryToDecimal.twx DisplayBinaryToDecimal.ncd -o
+DisplayBinaryToDecimal.twr DisplayBinaryToDecimal.pcf -ucf pines.ucf
+
+Design file:              DisplayBinaryToDecimal.ncd
+Physical constraint file: DisplayBinaryToDecimal.pcf
+Device,package,speed:     xc6slx9,ftg256,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+-----------------+---------+
+Source Pad     |Destination Pad  |  Delay  |
+---------------+-----------------+---------+
+binary_input<0>|display_output<0>|   11.983|
+binary_input<0>|display_output<1>|   12.952|
+binary_input<0>|display_output<2>|   12.424|
+binary_input<0>|segment_output<0>|   11.818|
+binary_input<0>|segment_output<1>|   11.822|
+binary_input<0>|segment_output<2>|   11.460|
+binary_input<0>|segment_output<3>|   12.257|
+binary_input<0>|segment_output<4>|   11.596|
+binary_input<0>|segment_output<5>|   11.870|
+binary_input<0>|segment_output<6>|   11.753|
+binary_input<1>|display_output<0>|   11.852|
+binary_input<1>|display_output<1>|   13.309|
+binary_input<1>|display_output<2>|   12.781|
+binary_input<1>|segment_output<0>|   12.175|
+binary_input<1>|segment_output<1>|   12.179|
+binary_input<1>|segment_output<2>|   11.817|
+binary_input<1>|segment_output<3>|   12.614|
+binary_input<1>|segment_output<4>|   11.953|
+binary_input<1>|segment_output<5>|   12.227|
+binary_input<1>|segment_output<6>|   12.110|
+binary_input<2>|display_output<0>|   12.655|
+binary_input<2>|display_output<1>|   13.851|
+binary_input<2>|display_output<2>|   13.323|
+binary_input<2>|segment_output<0>|   12.717|
+binary_input<2>|segment_output<1>|   12.721|
+binary_input<2>|segment_output<2>|   12.359|
+binary_input<2>|segment_output<3>|   13.156|
+binary_input<2>|segment_output<4>|   12.495|
+binary_input<2>|segment_output<5>|   12.769|
+binary_input<2>|segment_output<6>|   12.652|
+binary_input<3>|display_output<0>|   12.034|
+binary_input<3>|display_output<1>|   11.892|
+binary_input<3>|display_output<2>|   12.000|
+binary_input<3>|segment_output<0>|   11.106|
+binary_input<3>|segment_output<1>|   11.027|
+binary_input<3>|segment_output<2>|   10.400|
+binary_input<3>|segment_output<3>|   11.545|
+binary_input<3>|segment_output<4>|   10.536|
+binary_input<3>|segment_output<5>|   11.075|
+binary_input<3>|segment_output<6>|   10.693|
+binary_input<4>|display_output<0>|   12.312|
+binary_input<4>|display_output<1>|   12.157|
+binary_input<4>|display_output<2>|   12.379|
+binary_input<4>|segment_output<0>|   11.485|
+binary_input<4>|segment_output<1>|   11.305|
+binary_input<4>|segment_output<2>|   10.740|
+binary_input<4>|segment_output<3>|   11.924|
+binary_input<4>|segment_output<4>|   10.876|
+binary_input<4>|segment_output<5>|   11.353|
+binary_input<4>|segment_output<6>|   10.958|
+binary_input<5>|display_output<0>|   12.351|
+binary_input<5>|display_output<1>|   12.345|
+binary_input<5>|display_output<2>|   12.501|
+binary_input<5>|segment_output<0>|   11.607|
+binary_input<5>|segment_output<1>|   11.344|
+binary_input<5>|segment_output<2>|   10.862|
+binary_input<5>|segment_output<3>|   12.046|
+binary_input<5>|segment_output<4>|   10.998|
+binary_input<5>|segment_output<5>|   11.392|
+binary_input<5>|segment_output<6>|   11.146|
+binary_input<6>|display_output<0>|   12.772|
+binary_input<6>|display_output<1>|   12.204|
+binary_input<6>|display_output<2>|   12.630|
+binary_input<6>|segment_output<0>|   11.736|
+binary_input<6>|segment_output<1>|   11.765|
+binary_input<6>|segment_output<2>|   10.991|
+binary_input<6>|segment_output<3>|   12.175|
+binary_input<6>|segment_output<4>|   11.127|
+binary_input<6>|segment_output<5>|   11.813|
+binary_input<6>|segment_output<6>|   11.005|
+binary_input<7>|display_output<0>|   11.653|
+binary_input<7>|display_output<1>|   13.307|
+binary_input<7>|display_output<2>|   12.821|
+binary_input<7>|segment_output<0>|   12.173|
+binary_input<7>|segment_output<1>|   12.177|
+binary_input<7>|segment_output<2>|   11.815|
+binary_input<7>|segment_output<3>|   12.612|
+binary_input<7>|segment_output<4>|   11.951|
+binary_input<7>|segment_output<5>|   12.225|
+binary_input<7>|segment_output<6>|   12.108|
+---------------+-----------------+---------+
+
+
+Analysis completed Sun Jun 11 18:27:54 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 212 MB
+
+
+

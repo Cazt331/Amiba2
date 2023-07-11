@@ -1,0 +1,19 @@
+#reloj
+net Clk loc = E7;
+
+#Entrada
+net N<7> loc = M1;
+net N<6> loc = P2;
+net N<5> loc = N5;
+net N<4> loc = T7;
+net N<3> loc = R9;
+net N<2> loc = P4;
+net N<1> loc = R7;
+net N<0> loc = N9;
+
+net Start loc = L1;
+
+#Salida
+#net Busy_ loc = N1;
+
+net Salida loc = N12;

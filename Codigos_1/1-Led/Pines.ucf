@@ -1,0 +1,5 @@
+#Pines de salida
+NET "Salida" LOC = M4;#LED
+
+#Pines de entrada
+NET "Entrada" LOC = M1;#Switch

@@ -1,0 +1,4 @@
+verilog work "Multiplexor.v"
+verilog work "FSM.v"
+verilog work "Data_path.v"
+verilog work "Main.v"

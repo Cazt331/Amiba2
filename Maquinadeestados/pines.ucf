@@ -1,0 +1,15 @@
+#Salidas
+net led loc = P1;
+
+#Entradas
+#net switches(7) loc = M1;
+#net switches(6) loc = P2;
+#net switches(5) loc = N5;
+#net switches(4) loc = T7;
+#net switches(3) loc = R9;
+#net switches(2) loc = P4;
+#net switches(1) loc = R7;
+net switches loc = N9;
+
+net reset loc = J1;
+net clk loc = E7;

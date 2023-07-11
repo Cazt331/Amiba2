@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Multiplexor instance_name (
+    .Clk(Clk), 
+    .Displays(Displays), 
+    .Segmentos(Segmentos), 
+    .N(N)
+    );
+
+

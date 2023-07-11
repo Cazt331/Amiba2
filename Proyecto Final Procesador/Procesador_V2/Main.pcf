@@ -1,0 +1,34 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jun 12 20:38:36 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "N<0>" LOCATE = SITE "N9" LEVEL 1;
+COMP "N<1>" LOCATE = SITE "R7" LEVEL 1;
+COMP "N<2>" LOCATE = SITE "P4" LEVEL 1;
+COMP "N<3>" LOCATE = SITE "R9" LEVEL 1;
+COMP "N<4>" LOCATE = SITE "T7" LEVEL 1;
+COMP "N<5>" LOCATE = SITE "N5" LEVEL 1;
+COMP "N<6>" LOCATE = SITE "P2" LEVEL 1;
+COMP "N<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "Salida" LOCATE = SITE "N12" LEVEL 1;
+COMP "Segmentos<0>" LOCATE = SITE "P16" LEVEL 1;
+COMP "Displays<0>" LOCATE = SITE "G16" LEVEL 1;
+COMP "Segmentos<1>" LOCATE = SITE "P15" LEVEL 1;
+COMP "Displays<1>" LOCATE = SITE "F16" LEVEL 1;
+COMP "Segmentos<2>" LOCATE = SITE "T15" LEVEL 1;
+COMP "Displays<2>" LOCATE = SITE "E16" LEVEL 1;
+COMP "Segmentos<3>" LOCATE = SITE "T14" LEVEL 1;
+COMP "Displays<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "Start" LOCATE = SITE "L1" LEVEL 1;
+COMP "Segmentos<4>" LOCATE = SITE "T13" LEVEL 1;
+COMP "Displays<4>" LOCATE = SITE "E15" LEVEL 1;
+COMP "Segmentos<5>" LOCATE = SITE "R16" LEVEL 1;
+COMP "Displays<5>" LOCATE = SITE "C15" LEVEL 1;
+COMP "Segmentos<6>" LOCATE = SITE "R15" LEVEL 1;
+COMP "Displays<6>" LOCATE = SITE "D11" LEVEL 1;
+COMP "Segmentos<7>" LOCATE = SITE "R14" LEVEL 1;
+COMP "Displays<7>" LOCATE = SITE "E11" LEVEL 1;
+COMP "Clk" LOCATE = SITE "E7" LEVEL 1;
+SCHEMATIC END;
+

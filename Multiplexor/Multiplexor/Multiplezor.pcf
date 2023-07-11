@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Apr 29 20:20:47 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Segmentos<0>" LOCATE = SITE "P16" LEVEL 1;
+COMP "Displays<0>" LOCATE = SITE "G16" LEVEL 1;
+COMP "Reloj" LOCATE = SITE "E7" LEVEL 1;
+COMP "Segmentos<1>" LOCATE = SITE "P15" LEVEL 1;
+COMP "Displays<1>" LOCATE = SITE "F16" LEVEL 1;
+COMP "Segmentos<2>" LOCATE = SITE "T15" LEVEL 1;
+COMP "Displays<2>" LOCATE = SITE "E16" LEVEL 1;
+COMP "Segmentos<3>" LOCATE = SITE "T14" LEVEL 1;
+COMP "Displays<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "Segmentos<4>" LOCATE = SITE "T13" LEVEL 1;
+COMP "Displays<4>" LOCATE = SITE "E15" LEVEL 1;
+COMP "Segmentos<5>" LOCATE = SITE "R16" LEVEL 1;
+COMP "Displays<5>" LOCATE = SITE "C15" LEVEL 1;
+COMP "Segmentos<6>" LOCATE = SITE "R15" LEVEL 1;
+COMP "Displays<6>" LOCATE = SITE "D11" LEVEL 1;
+COMP "Segmentos<7>" LOCATE = SITE "R14" LEVEL 1;
+COMP "Displays<7>" LOCATE = SITE "E11" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/DLP Programas/Nuevos/Led/Led.xst" -ofn "C:/Users/vboxuser/Desktop/DLP Programas/Nuevos/Led/Led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-2 "Led.ngc" Led.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Led_map.ncd Led.ngd Led.pcf 
+par -w -intstyle ise -ol high -mt off Led_map.ncd Led.ncd Led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Led.twx Led.ncd -o Led.twr Led.pcf 
+bitgen -intstyle ise -f Led.ut Led.ncd 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/DLP Programas/Nuevos/Led/Led.xst" -ofn "C:/Users/vboxuser/Desktop/DLP Programas/Nuevos/Led/Led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 "Led.ngc" Led.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Led_map.ncd Led.ngd Led.pcf 
+par -w -intstyle ise -ol high -mt off Led_map.ncd Led.ncd Led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Led.twx Led.ncd -o Led.twr Led.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Led.ut Led.ncd 

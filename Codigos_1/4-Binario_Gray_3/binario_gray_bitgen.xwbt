@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Binario_Gray_3\binario_gray.ncd
+OUTFILE=Z:\Binario_Gray_3\binario_gray.bit
+FAMILY=Spartan6
+PART=xc6slx9-2ftg256
+WORKINGDIR=Z:\Binario_Gray_3
+LICENSE=WebPack
+USER_INFO=212687621_0_0_176

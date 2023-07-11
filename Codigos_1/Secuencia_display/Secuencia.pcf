@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Apr 29 14:05:47 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "AN<0>" LOCATE = SITE "G16" LEVEL 1;
+COMP "AN<1>" LOCATE = SITE "F16" LEVEL 1;
+COMP "AN<2>" LOCATE = SITE "E16" LEVEL 1;
+COMP "AN<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "AN<4>" LOCATE = SITE "E15" LEVEL 1;
+COMP "AN<5>" LOCATE = SITE "C15" LEVEL 1;
+COMP "AN<6>" LOCATE = SITE "D11" LEVEL 1;
+COMP "AN<7>" LOCATE = SITE "E11" LEVEL 1;
+COMP "RST" LOCATE = SITE "J1" LEVEL 1;
+COMP "CLK_100MHZ" LOCATE = SITE "E7" LEVEL 1;
+COMP "CLK_1HZ" LOCATE = SITE "N12" LEVEL 1;
+SCHEMATIC END;
+

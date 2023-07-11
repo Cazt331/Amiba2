@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "Z:/Display_1-9/Display1_9.xst" -ofn "Z:/Display_1-9/Display1_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-2 Display1_9.ngc Display1_9.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_9_map.ncd Display1_9.ngd Display1_9.pcf 
+par -w -intstyle ise -ol high -mt off Display1_9_map.ncd Display1_9.ncd Display1_9.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display1_9.twx Display1_9.ncd -o Display1_9.twr Display1_9.pcf 
+bitgen -intstyle ise -f Display1_9.ut Display1_9.ncd 
+xst -intstyle ise -ifn "Z:/Display_1-9/Display1_9.xst" -ofn "Z:/Display_1-9/Display1_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Display1_9.ngc Display1_9.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_9_map.ncd Display1_9.ngd Display1_9.pcf 
+par -w -intstyle ise -ol high -mt off Display1_9_map.ncd Display1_9.ncd Display1_9.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display1_9.twx Display1_9.ncd -o Display1_9.twr Display1_9.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Display1_9.ut Display1_9.ncd 

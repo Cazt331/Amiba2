@@ -1,0 +1,9 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Mar 10 14:31:37 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Salida" LOCATE = SITE "M4" LEVEL 1;
+COMP "Entrada" LOCATE = SITE "M1" LEVEL 1;
+SCHEMATIC END;
+

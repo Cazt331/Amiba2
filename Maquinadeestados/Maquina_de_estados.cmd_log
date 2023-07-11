@@ -1,0 +1,180 @@
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Maquina_de_estados.ut Maquina_de_estados.ncd 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+xst -intstyle ise -ifn "Z:/Maquinadeestados/Maquina_de_estados.xst" -ofn "Z:/Maquinadeestados/Maquina_de_estados.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Maquina_de_estados.ngc Maquina_de_estados.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_de_estados_map.ncd Maquina_de_estados.ngd Maquina_de_estados.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_de_estados_map.ncd Maquina_de_estados.ncd Maquina_de_estados.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Maquina_de_estados.twx Maquina_de_estados.ncd -o Maquina_de_estados.twr Maquina_de_estados.pcf -ucf pines.ucf 

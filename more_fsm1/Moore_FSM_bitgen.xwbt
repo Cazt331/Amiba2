@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\more_fsm1\Moore_FSM.ncd
+OUTFILE=Z:\more_fsm1\Moore_FSM.bit
+FAMILY=Spartan6
+PART=xc6slx9-2ftg256
+WORKINGDIR=Z:\more_fsm1
+LICENSE=WebPack
+USER_INFO=212687621_0_0_176

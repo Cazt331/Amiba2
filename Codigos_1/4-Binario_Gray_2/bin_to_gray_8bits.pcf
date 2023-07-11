@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Apr 04 16:55:42 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "gray<0>" LOCATE = SITE "N12" LEVEL 1;
+COMP "binario<0>" LOCATE = SITE "N9" LEVEL 1;
+COMP "gray<1>" LOCATE = SITE "P9" LEVEL 1;
+COMP "binario<1>" LOCATE = SITE "R7" LEVEL 1;
+COMP "gray<2>" LOCATE = SITE "N6" LEVEL 1;
+COMP "binario<2>" LOCATE = SITE "P4" LEVEL 1;
+COMP "gray<3>" LOCATE = SITE "M12" LEVEL 1;
+COMP "binario<3>" LOCATE = SITE "R9" LEVEL 1;
+COMP "gray<4>" LOCATE = SITE "T9" LEVEL 1;
+COMP "binario<4>" LOCATE = SITE "T7" LEVEL 1;
+COMP "gray<5>" LOCATE = SITE "T6" LEVEL 1;
+COMP "binario<5>" LOCATE = SITE "N5" LEVEL 1;
+COMP "gray<6>" LOCATE = SITE "T4" LEVEL 1;
+COMP "binario<6>" LOCATE = SITE "P2" LEVEL 1;
+COMP "gray<7>" LOCATE = SITE "P1" LEVEL 1;
+COMP "binario<7>" LOCATE = SITE "M1" LEVEL 1;
+SCHEMATIC END;
+

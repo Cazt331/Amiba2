@@ -1,0 +1,31 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sat Apr 01 09:45:25 2023
+
+All signals are completely routed.
+
+WARNING:ParHelpers:362 - There are 8 sourceless signals in this design. This design will not pass the DRC check run by
+   Bitgen.
+
+   gray<0>_OBUF
+   gray<1>_OBUF
+   gray<2>_OBUF
+   gray<3>_OBUF
+   gray<4>_OBUF
+   gray<5>_OBUF
+   gray<6>_OBUF
+   gray<7>_OBUF
+WARNING:ParHelpers:361 - There are 8 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   binario<0>_IBUF
+   binario<1>_IBUF
+   binario<2>_IBUF
+   binario<3>_IBUF
+   binario<4>_IBUF
+   binario<5>_IBUF
+   binario<6>_IBUF
+   binario<7>_IBUF
+
+

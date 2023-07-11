@@ -1,0 +1,6 @@
+vhdtdtfi -lang verilog -prj Procesador2 -o Z:/Procesador2/Multiplexor.tfi -lib work Z:/Procesador2//Display.v -module Multiplexor -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Procesador2 -o Z:/Procesador2/Multiplexor.tfi -lib work Z:/Procesador2//Display.v -module Multiplexor -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Procesador2 -o Z:/Procesador2/Multiplexor.tfi -lib work Z:/Procesador2//Multiplexor.v -module Multiplexor -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Procesador2 -o Z:/Procesador_V2/Multiplexor.tfi -lib work Z:/Procesador_V2//Multiplexor.v -module Multiplexor -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Procesador2 -o Z:/Procesador_V2/Multiplexor.tfi -lib work Z:/Procesador_V2//Multiplexor.v -module Multiplexor -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Procesador2 -o Z:/Procesador_V4/Multiplexor.tfi -lib work Z:/Procesador_V4//Multiplexor.v -module Multiplexor -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

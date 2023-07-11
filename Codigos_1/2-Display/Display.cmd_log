@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/Programas/Display/Display.xst" -ofn "C:/Users/vboxuser/Desktop/Programas/Display/Display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-2 Display.ngc Display.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_map.ncd Display.ngd Display.pcf 
+par -w -intstyle ise -ol high -mt off Display_map.ncd Display.ncd Display.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display.twx Display.ncd -o Display.twr Display.pcf 
+bitgen -intstyle ise -f Display.ut Display.ncd 
+bitgen -intstyle ise -f Display.ut Display.ncd 
+xst -intstyle ise -ifn "Z:/2-Display/Display.xst" -ofn "Z:/2-Display/Display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-ftg256-2 Display.ngc Display.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_map.ncd Display.ngd Display.pcf 
+par -w -intstyle ise -ol high -mt off Display_map.ncd Display.ncd Display.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display.twx Display.ncd -o Display.twr Display.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Display.ut Display.ncd 

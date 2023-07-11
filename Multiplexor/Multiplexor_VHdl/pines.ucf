@@ -1,0 +1,22 @@
+#reloj
+net Reloj loc = E7;
+
+#Segmentos del display
+#net Segmentos<7> LOC = R14;
+net Segmentos<6> LOC = R15;
+net Segmentos<5> LOC = R16;
+net Segmentos<4> LOC = T13;
+net Segmentos<3> LOC = T14;
+net Segmentos<2> LOC = T15;
+net Segmentos<1> LOC = P15;
+net Segmentos<0> LOC = P16;
+
+#DISPLAYS
+net Displays2<3> LOC = E11;
+net Displays2<2> LOC = D11;
+net Displays2<1> LOC = C15;
+net Displays2<0> LOC = E15;
+net Displays<3> LOC = D16;
+net Displays<2> LOC = E16;
+net Displays<1> LOC = F16;
+net Displays<0> LOC = G16;

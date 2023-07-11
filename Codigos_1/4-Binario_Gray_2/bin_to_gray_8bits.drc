@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Apr 04 16:56:06 2023
+
+drc -z bin_to_gray_8bits.ncd bin_to_gray_8bits.pcf
+
+DRC detected 0 errors and 0 warnings.

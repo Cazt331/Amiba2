@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "Z:/Binario_Gray_3/binario_gray.xst" -ofn "Z:/Binario_Gray_3/binario_gray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 binario_gray.ngc binario_gray.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binario_gray_map.ncd binario_gray.ngd binario_gray.pcf 
+par -w -intstyle ise -ol high -mt off binario_gray_map.ncd binario_gray.ncd binario_gray.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml binario_gray.twx binario_gray.ncd -o binario_gray.twr binario_gray.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f binario_gray.ut binario_gray.ncd 

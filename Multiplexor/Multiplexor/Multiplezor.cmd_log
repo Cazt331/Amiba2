@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Multiplezor.ngc Multiplezor.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplezor_map.ncd Multiplezor.ngd Multiplezor.pcf 
+par -w -intstyle ise -ol high -mt off Multiplezor_map.ncd Multiplezor.ncd Multiplezor.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Multiplezor.twx Multiplezor.ncd -o Multiplezor.twr Multiplezor.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Multiplezor.ut Multiplezor.ncd 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Multiplezor.ngc Multiplezor.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplezor_map.ncd Multiplezor.ngd Multiplezor.pcf 
+par -w -intstyle ise -ol high -mt off Multiplezor_map.ncd Multiplezor.ncd Multiplezor.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Multiplezor.twx Multiplezor.ncd -o Multiplezor.twr Multiplezor.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Multiplezor.ut Multiplezor.ncd 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Multiplezor.ngc Multiplezor.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplezor_map.ncd Multiplezor.ngd Multiplezor.pcf 
+par -w -intstyle ise -ol high -mt off Multiplezor_map.ncd Multiplezor.ncd Multiplezor.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Multiplezor.twx Multiplezor.ncd -o Multiplezor.twr Multiplezor.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Multiplezor.ut Multiplezor.ncd 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Multiplezor.ngc Multiplezor.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplezor_map.ncd Multiplezor.ngd Multiplezor.pcf 
+par -w -intstyle ise -ol high -mt off Multiplezor_map.ncd Multiplezor.ncd Multiplezor.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Multiplezor.twx Multiplezor.ncd -o Multiplezor.twr Multiplezor.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Multiplezor.ut Multiplezor.ncd 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Multiplezor.ngc Multiplezor.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplezor_map.ncd Multiplezor.ngd Multiplezor.pcf 
+par -w -intstyle ise -ol high -mt off Multiplezor_map.ncd Multiplezor.ncd Multiplezor.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Multiplezor.twx Multiplezor.ncd -o Multiplezor.twr Multiplezor.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Multiplezor.ut Multiplezor.ncd 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Multiplezor.ngc Multiplezor.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplezor_map.ncd Multiplezor.ngd Multiplezor.pcf 
+par -w -intstyle ise -ol high -mt off Multiplezor_map.ncd Multiplezor.ncd Multiplezor.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Multiplezor.twx Multiplezor.ncd -o Multiplezor.twr Multiplezor.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Multiplezor.ut Multiplezor.ncd 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 
+xst -intstyle ise -ifn "Z:/Multiplexor/Multiplezor.xst" -ofn "Z:/Multiplexor/Multiplezor.syr" 

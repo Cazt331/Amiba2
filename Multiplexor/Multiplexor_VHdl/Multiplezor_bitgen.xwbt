@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Multiplexor_VHdl\Multiplezor.ncd
+OUTFILE=Z:\Multiplexor_VHdl\Multiplezor.bit
+FAMILY=Spartan6
+PART=xc6slx9-2ftg256
+WORKINGDIR=Z:\Multiplexor_VHdl
+LICENSE=WebPack
+USER_INFO=212687621_0_0_176

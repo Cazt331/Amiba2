@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "Z:/Reloj_1000Hz/Reloj_1000Hz.xst" -ofn "Z:/Reloj_1000Hz/Reloj_1000Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Reloj_1000Hz.ngc Reloj_1000Hz.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_1000Hz_map.ncd Reloj_1000Hz.ngd Reloj_1000Hz.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_1000Hz_map.ncd Reloj_1000Hz.ncd Reloj_1000Hz.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj_1000Hz.twx Reloj_1000Hz.ncd -o Reloj_1000Hz.twr Reloj_1000Hz.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Reloj_1000Hz.ut Reloj_1000Hz.ncd 
+xst -intstyle ise -ifn "Z:/Reloj_1000Hz/Reloj_1000Hz.xst" -ofn "Z:/Reloj_1000Hz/Reloj_1000Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Reloj_1000Hz.ngc Reloj_1000Hz.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_1000Hz_map.ncd Reloj_1000Hz.ngd Reloj_1000Hz.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_1000Hz_map.ncd Reloj_1000Hz.ncd Reloj_1000Hz.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj_1000Hz.twx Reloj_1000Hz.ncd -o Reloj_1000Hz.twr Reloj_1000Hz.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Reloj_1000Hz.ut Reloj_1000Hz.ncd 
+xst -intstyle ise -ifn "Z:/Reloj_1000Hz/Reloj_1000Hz.xst" -ofn "Z:/Reloj_1000Hz/Reloj_1000Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-ftg256-2 Reloj_1000Hz.ngc Reloj_1000Hz.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Reloj_1000Hz_map.ncd Reloj_1000Hz.ngd Reloj_1000Hz.pcf 
+par -w -intstyle ise -ol high -mt off Reloj_1000Hz_map.ncd Reloj_1000Hz.ncd Reloj_1000Hz.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Reloj_1000Hz.twx Reloj_1000Hz.ncd -o Reloj_1000Hz.twr Reloj_1000Hz.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Reloj_1000Hz.ut Reloj_1000Hz.ncd 
